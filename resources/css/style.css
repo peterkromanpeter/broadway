@@ -27,19 +27,24 @@ body {
 
 .top {
 background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+background-repeat: no-repeat
 }
 
 ul {
   list-style-type:none;
   font-size: 18px;
+  line-height: 30px;
+
 
 }
 .navigation a {
   color: white;
+  text-decoration: none;
 }
 
 .designed {
 background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+background-repeat: no-repeat
 font-weight: bold;
 color: white;
 }
@@ -74,5 +79,5 @@ color: white;
   display: block;
   padding: 5px;
   text-docoration: none;
-  float: left;  
+  float: left;
 }
